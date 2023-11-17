@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+    <div class="site-container">
+        @include('partials/header.html')
+        <main class="main">
+            <section class="content">
+                <div class="container grid">
+            
+                        <article class="article-block img1 flex">
+                            <!-- <img src="img/Rectangle 2.jpg"> -->
+                            <div class="content__block">
+                                <p class="content__desc">
+                                    Мастер-класс от&nbsp;Игоря Робова
+                                </p>
+                                <h4 class="content__text">
+                                    Неоновый фотосет 2.0 7&nbsp;июля 20:00
+                                </h4>
+                                <button class="content__btn btn btn__orange">
+                                    Узнать больше
+                                </button>
+                            </div>
+                            </article>
+
+                        <div class="grid__item img2 ">
+                            <p class="content__info">
+                                Работы участников предыдущего мастер-класса
+                            </p>
+                            <picture>
+                             <source media="(max-width: 768px)" srcset="img/Rectangle-4-small-tablet.png" > 
+                            <img src="img/Rectangle 4.jpg">
+                            </picture>
+                        </div>
+
+                        <div class="grid__item img3">
+                            <img src="img/Rectangle 6.jpg" alt="">
+                        </div>
+                        <div class="grid__item img4">
+                            <img src="img/Rectangle 3.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+            <section class="about-us">
+                <div class="container">
+                    <div class=" container__about-us flex">
+                        <div class="container__left">
+                            <h2 class="title__about-us">
+                                О студии
+                            </h2>
+                            <p class="text__about-us">
+                                В&nbsp;рамках спецификации современных стандартов, интерактивные прототипы,
+                                инициированные
+                                исключительно синтетически, ограничены исключительно образом мышления. Предварительные
+                                выводы неутешительны: высокотехнологичная концепция общественного уклада требует
+                                от&nbsp;нас
+                                анализа соответствующих условий активизации! Следует отметить, что семантический разбор
+                                внешних противодействий фиксирует необходимость распределения внутренних резервов
+                                и&nbsp;ресурсов. Безусловно, граница обучения кадров предоставляет широкие возможности
+                                для
+                                первоочередных требований. Повседневная практика показывает, что глубокий уровень
+                                погружения
+                                предполагает независимые способы реализации новых принципов формирования
+                                материально-технической и&nbsp;кадровой базы. Приятно, граждане, наблюдать, как явные
+                                признаки институционализации являются только методом политического участия
+                                и&nbsp;нарушающими общечеловеческие нормы этики.
+
+                            </p>
+                        </div>
+                        <div class="container__right right__table flex">
+
+                            <div class="container__bottom">
+                                <p class="container__bottom__caption">
+                                    Подписаться на&nbsp;рассылку
+                                </p>
+                                <form action="#" class="__form">
+                                    <input name="email" type="email" class="mailing__input" placeholder="Email">
+                                    <button class="btn btn__orange">
+                                        Отправить
+                                    </button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="projects">
+                <div class="container">
+                    <h2> Наши проекты </h2>
+                    <div class="main-grid">
+                        <div class="main-grid__item block1 flex">
+                            <picture>
+                                <source media="(max-width: 1024px)" srcset="img/Rectangle-7-tabler.png ">
+                                <img src="img/Rectangle 7.jpg">
+                            </picture>
+                            <p class="main-grid__item__text">
+                                Синтетически, смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени...
+                            </p>
+                            <p class="main-grid__item__text__tabler">
+                                Синтетически, смешаны с&nbsp;не&nbsp;уникальными...
+                            </p>
+                            <div class="item__bottom flex">
+                                <svg class="" width="14" height="14" viewBox="0 0 14 14">
+                                    <use xlink:href="img/sprite.svg#calendar"></use>
+                                </svg>
+                                <span>
+                                    16 июня
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="main-grid__item block2 flex">
+                            <picture>
+                                <source media="(max-width: 1024px)" srcset="img/Rectangle-8-tabler.png ">
+                                <img src="img/Rectangle 8.jpg">
+                            </picture>
+                            <p class="main-grid__item__text">
+                                В своём стремлении улучшить опыт мы упускаем, что явные...
+                            </p>
+                            <p class="main-grid__item__text__tabler">
+                                В&nbsp;своём стремлении улучшить опыт&nbsp;мы...
+                            </p>
+                            <div class="item__bottom flex">
+                                <svg class="" width="14" height="14" viewBox="0 0 14 14">
+                                    <use xlink:href="img/sprite.svg#calendar"></use>
+                                </svg>
+                                <span>
+                                    28 мая
+                                </span>
+                            </div>
+                        </div>
+                        <div class="main-grid__item block3 flex">
+
+                            <picture>
+                                <source media="(max-width: 1024px)" srcset="img/Rectangle-9-tablet.png"
+                                    sizes="(max-width: 1024px) 466px">
+                                <source media="(max-width: 768px)" srcset="img/Rectangle-9-small-tablet.png" >
+                                <img src="img/Rectangle 9.jpg">
+                            </picture>
+                            <p class="main-grid__item__text">
+                                Равным образом, высокое качество позиционных...
+                            </p>
+                            <p class="main-grid__item__text__tabler">
+                                Равным образом, высокое качество позиционных высокотехнологичная концепция общественного уклада
+                            </p>
+                            <span>
+                                <svg class="" width="14" height="14" viewBox="0 0 14 14">
+                                    <use xlink:href="img/sprite.svg#calendar"></use>
+                                </svg>
+                                14&nbsp;мая
+                            </span>
+                        </div>
+                        <div class="main-grid__item block4 flex">
+                            <!-- <img src="img/Rectangle 10.jpg"> -->
+                            <!-- <div class="grid__item__unit"> -->
+                            <h4 class="item__title">
+                                Cемантический разбор
+                            </h4>
+                            <p class="item__desc">
+                                В&nbsp;рамках спецификации современных стандартов, интерактивные прототипы
+                            </p>
+                            <button class="item__btn btn btn__transparent">
+                                О&nbsp;проекте
+                            </button>
+                            <!-- </div> -->
+                        </div>
+                        <div class="main-grid__item block5 flex">
+                            <!-- <img src="img/Rectangle 11.jpg"> -->
+                            <!-- <div class="grid__item__unit"> -->
+                            <span>
+                                <svg class="" width="14" height="14" viewBox="0 0 14 14">
+                                    <use xlink:href="img/sprite.svg#calendar"></use>
+                                </svg>
+                                20&nbsp;марта
+                            </span>
+                            <h4 class="item__title">
+                                Забвение
+                            </h4>
+                            <p class="item__desc">
+                                Играет важную роль в&nbsp;формировании глубокомысленных рассуждений
+                            </p>
+                            <button class="btn btn__transparent">
+                                О&nbsp;проекте
+                            </button>
+                            <!-- </div> -->
+                        </div>
+                        <div class="main-grid__item block6 flex">
+                            <picture>
+                                <source media="(max-width: 1024px)" srcset="img/Rectangle-12-tabler.png"
+                                    sizes="(max-width: 1024px) 466px">
+                                <source media="(max-width: 1024px)" srcset="img/Rectangle-12-small-tablet.png">
+                            <img src="img/Rectangle 12.jpg">
+                            </picture>
+                            <p class="main-grid__item__text">
+                                Как принято считать, многие известные личности и&nbsp;по&nbsp;сей день остаются уделом
+                                либералов...
+                            </p>
+                            <p class="main-grid__item__text__tabler">
+                                Как принято считать, многие известные личности и&nbsp;по&nbsp;сей день остаются уделом либералов...
+                            </p>
+                            <span>
+                                <svg class="" width="14" height="14" viewBox="0 0 14 14">
+                                    <use xlink:href="img/sprite.svg#calendar"></use>
+                                </svg>
+                                9&nbsp;марта
+                            </span>
+                        </div>
+                        <div class="main-grid__item block7 flex">
+                            <picture>
+                                <!-- <source media="(max-width: 1024px)" srcset="img/Rectangle-12-tabler.png"
+                                    sizes="(max-width: 1024px) 466px"> -->
+                                    <source media="(max-width: 768px)" srcset="img/Rectangle-13-small-tablet.png">
+                                    <img src="img/Rectangle 13.jpg">
+                            </picture>
+                            <p class="main-grid__item__text">
+                                С&nbsp;учётом сложившейся международной обстановки, новая модель организационной...
+                            </p>
+                            <p class="main-grid__item__text__tabler">
+                                С&nbsp;учётом сложившейся международной обстановки, новая модель организационной...
+                            </p>
+                            <span>
+                                <svg class="" width="14" height="14" viewBox="0 0 14 14">
+                                    <use xlink:href="img/sprite.svg#calendar"></use>
+                                </svg>
+                                1&nbsp;марта
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <h2> Контакты </h2>
+                    <div class="container__contacts flex">
+                        <div class="contacts__map">
+                            <div id="map" class="map__style"></div>
+                        </div>
+                        <div class="contacts__form flex">
+                            <p class="contacts__form__title"> Оставить заявку
+                            <p>
+                            <p class="contacts__form__desc">
+                                Оставьте ваши данные, указав в&nbsp;графе &laquo;Комментарий&raquo; желаемые время
+                                и&nbsp;дату съёмки или другого мероприятия
+                            </p>
+                            <form action="#" class="form">
+                                <input name="name" type="text" class="valu-input" placeholder="Имя">
+
+                                <input name="email" type="email" class="valu-input" placeholder="Email">
+
+                                <textarea type="text" class="valu-input text__input"
+                                    placeholder="Комментарий"></textarea>
+
+                                <button type="submit" class="form__btn btn btn__orange"> Отправить </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        @include('partials/footer.html')
+        <!-- @include('html/h1.html') пример include -->
+    </div>
+
+</body>
+
+</html>

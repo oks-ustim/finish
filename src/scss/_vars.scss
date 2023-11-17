@@ -1,0 +1,35 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  // --font-family: "Open Sans", sans-serif;
+  // --content-width: 1170px;
+  // --container-offset: 15px;
+  // --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  
+  // colors
+  --light-color: #fff;
+  --light-gray-color: #E9E9E9;
+  --black-color: #202020;
+  --CACA-color: #CACACA;
+  --orange-color: #FF6E30;
+  --gray-color: #4A4A4A;
+  --orange-gray-color:rgba(188, 87, 43, 1);
+  --orange-hover-color: rgba(255, 110, 48, 1);
+  --span-color: rgba(153, 153, 153, 1);
+  --active-color: rgba(206, 67, 7, 1);
+
+
+}
+
+
+$containerWax: 1920px;
+$containerContent: 1290px;
+$grigGutter: 30px;
+
+
+$breakpoint__xl: 1024px;
+$breakpoint__md: 768px;
+$breakpoint__sm: 320px;
+
